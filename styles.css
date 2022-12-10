@@ -22,7 +22,7 @@ nav a {
 h1 {
     text-align: center;
     font-family: 'Rubik Glitch', cursive;
-    color:rgb(76, 133, 199);
+    color: rgb(76, 133, 199);
 }
 
 p {
@@ -38,16 +38,18 @@ img {
 }
 
 .blue-letter {
-    color:rgb(123, 185, 29)
+    color: rgb(123, 185, 29)
 }
 
-nav a:visited{
-    color:purple;
+nav a:visited {
+    color: purple;
 }
-nav a:hover{
-    color:black;
+
+nav a:hover {
+    color: black;
 }
-::selection{
+
+::selection {
     color: rgb(175, 235, 79);
     background-color: rgb(18, 130, 158);
 }
