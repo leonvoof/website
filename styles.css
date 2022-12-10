@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: lightgrey;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rubik Glitch', cursive;
+    color:rgb(76, 133, 199);
+}
+
+p {
+    padding: 20px;
+    font-size: xx-large;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.blue-letter {
+    color:rgb(123, 185, 29)
+}
+
+nav a:visited{
+    color:purple;
+}
+nav a:hover{
+    color:black;
+}
+::selection{
+    color: rgb(175, 235, 79);
+    background-color: rgb(18, 130, 158);
+}
